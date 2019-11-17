@@ -4,7 +4,7 @@
 # Goal: Create full stack app that will let user add, change, delete, and see information from a database as well as log in to be able to interact with the message board
 ## How it's done:
 - Server is set up to be able to handle requests that come from browser side JS and forms
-- Index.ejs page is made that links to login and sing up pages
+- Index.ejs page is made that links to login and sign up pages
 - Log in page has fields for email and password, once entered, a password check is made against the database using a passport module
 - If successful, a redirect is made to the comments page using the users credentials to get in
 - If not successful an error message appears on the screen
